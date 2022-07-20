@@ -78,6 +78,37 @@ hr {
       header-container end
 =============================*/
 
+.blog-thumble {
+    display: flex;
+    align-items: center;
+}
+.blog-thumble p {
+    padding: 0px 10px;
+}
+
+.blog-thumble img {
+    width: 30%;
+    margin: auto;
+}
+.match-blog h2 {
+    font-size: 20px;
+    color: #302c2c;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.match-blog .date {
+    color: black;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
 
 .match {
     max-width: 1200px;
@@ -117,10 +148,6 @@ hr {
     text-align: center;
     background-color: white;
     color: black;
-}
-.match-info ul li a {
-    text-decoration: none;
-    color: black;
     cursor: pointer;
 }
 .match-info ul li:last-child{
@@ -130,11 +157,12 @@ hr {
 .match-blog {
     border-radius: 10px;
     border: 1px solid #e9e2e2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px;
 }
 
-.match-blog img {
-    width: 100%;
-}
 
 .match-details{
     margin-left: 10px;
@@ -198,26 +226,6 @@ hr {
 .match-duration i {
     color: red;
 }
-
-/*===================================================
-    ------------extra only for medium screen---------
-===================================================*/
-section.only-medium-screen {
-    width: 100%;
-    max-width: 1200px;
-    margin: 2% auto;
-    display: none;
-}
-
-.medium-screen-content {
-    text-align: center;
-    padding: 8% 0%;
-}
-/*===================================================
-    ------------extra only for medium screen---------
-===================================================*/
-
-
 /*===================================================
           ------------footer---------
 ===================================================*/
@@ -266,24 +274,6 @@ footer {
 /*===================================================
             ------------footer---------
 ===================================================*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*============================
   media Mobile screen start
@@ -383,17 +373,6 @@ margin: 15px auto;
 }
 
 
-
-
-
-
-
-
-/*============================
-  media  Mobile screen end
-==============================*/
-
-
 /*==============================
 media Tablate screen start
 ================================*/
@@ -490,3 +469,6 @@ section.only-medium-screen {
 /*==============================
 Tablate screen media query end
 ================================*/
+
+
+

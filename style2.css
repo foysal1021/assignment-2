@@ -148,6 +148,7 @@ hr {
     text-align: center;
     background-color: white;
     color: black;
+    cursor: pointer;
 }
 .match-info ul li:last-child{
     background-color: #DD0000;
