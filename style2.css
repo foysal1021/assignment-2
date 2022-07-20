@@ -31,6 +31,8 @@ hr {
         container close
 ===============================*/
 
+
+
 /*===========================
       header-container start
 =============================*/
@@ -78,38 +80,8 @@ hr {
       header-container end
 =============================*/
 
-.blog-thumble {
-    display: flex;
-    align-items: center;
-}
-.blog-thumble p {
-    padding: 0px 10px;
-}
 
-.blog-thumble img {
-    width: 30%;
-    margin: auto;
-}
-.match-blog h2 {
-    font-size: 20px;
-    color: #302c2c;
-    text-align: center;
-    padding: 10px 0px;
-}
-
-.match-blog .date {
-    color: black;
-    text-align: center;
-}
-
-
-
-
-
-
-
-
-
+/* match blog */
 .match {
     max-width: 1200px;
     width: 100%;
@@ -162,14 +134,35 @@ hr {
     justify-content: center;
     padding: 50px 0px;
 }
+.blog-thumble {
+    display: flex;
+    align-items: center;
+}
+.blog-thumble p {
+    padding: 0px 10px;
+}
+
+.blog-thumble img {
+    width: 30%;
+    margin: auto;
+}
+.match-blog h2 {
+    font-size: 20px;
+    color: #302c2c;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.match-blog .date {
+    color: black;
+    text-align: center;
+}
 
 
 .match-details{
     margin-left: 10px;
     padding: 10px 0px;
 }
-
-
 .match-details button{
     width: 120px;
     padding: 10px;
@@ -212,20 +205,18 @@ hr {
     font-size: 18px;
     width: 100%;
 }
-
-
 .match-duration {
     display: flex;
 }
-
 .match-duration p {
     margin-right: 15px;
     color: #3a3838;
 }
-
 .match-duration i {
     color: red;
 }
+/* match blog */
+
 /*===================================================
           ------------footer---------
 ===================================================*/
@@ -275,11 +266,15 @@ footer {
             ------------footer---------
 ===================================================*/
 
-/*============================
-  media Mobile screen start
-==============================*/
 
+
+
+/*============================
+  Responsive for mobile and tab
+==============================*/
+/* for mobile start */
 @media screen and (max-width:700px) {
+
     /*=========================
 ------------header-container start-----------
     ===========================*/
@@ -328,6 +323,7 @@ footer {
         header-container end
     ===========================*/
 
+
 /*match start*/
 .match-content{
     display: block;
@@ -352,9 +348,8 @@ border: 1px solid #d7d3cc;
     
 margin: 15px auto;
 }
-/*------------------------------------------*/
-               /* match end */
-/*-----------------------------------------*/
+/* match end */
+
 
 
 /*===================================================
@@ -371,12 +366,12 @@ margin: 15px auto;
           ------------footer---------
 ===================================================*/
 }
+/* for mobile end */
 
 
-/*==============================
-media Tablate screen start
-================================*/
-
+/*=========================
+for tab or mediaum device
+==========================*/
 @media screen and (min-width:701px) and (max-width:991px) {
     /*=========================
         header-container start
@@ -391,9 +386,6 @@ media Tablate screen start
     width: 360px;
     right: 0;
 }
-    /*=========================
-      media Tablate screen end
-    ===========================*/
 
     /* match */
     .match-content{
@@ -421,10 +413,7 @@ text-align: center;
     /* match */
 
 
-
-/*====================================================
--------------extra only for medium screen-------------
-======================================================*/
+/*----------extra only for medium screen-----------*/
 section.only-medium-screen {
     display: block;
 }
@@ -442,12 +431,8 @@ section.only-medium-screen {
     border-radius: 10px;
 }
 .medium-screen-content button:hover {
-    background-color: rgb(226, 68, 68);
-}
-/*===================================================
---------------extra only for medium screen-----------
-====================================================*/
-
+    background-color: rgb(226, 68, 68);}
+/*----------extra only for medium screen-----------*/
 
 
 /*===================================================
@@ -459,16 +444,15 @@ section.only-medium-screen {
         text-align: center;
         gap: 30px 0px;
     }
-
     }
-
-
 /*===================================================
           ------------footer---------
 ===================================================*/
-/*==============================
-Tablate screen media query end
-================================*/
+
+
+/*=========================
+for tab or mediaum device end
+==========================*/
 
 
 
