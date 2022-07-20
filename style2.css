@@ -472,3 +472,39 @@ Tablate screen media query end
 
 
 
+/* animation */
+button.demo {
+    position: relative;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+    animation-name: foysal;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes foysal {
+    0%{
+        background-color: red;
+    }
+    100%{
+        background-color: yellow;
+    }
+    
+}
+button.demo:hover .demo1{
+width: 100%;
+transition: 1s;
+
+}
+
+.demo1 {
+    position: absolute;
+    width: 0%;
+    background: #00000082;
+    top: 0;
+    left: 0%;
+    height: 100%;
+    border-radius: 10px;
+
+}
+/* animation */
